@@ -13,11 +13,7 @@
         height:100px
     }
     
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
+    .medium-4 { width: 30.33%; }
 
     .medium-6 { width: 50%; }
 

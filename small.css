@@ -80,9 +80,20 @@ main h1 {
     color : #9b87b8;
 }
 
+.column {
+    margin-right: .5rem
+}
+
 .row {
     padding : 0 2vw;
     width: 100%; 
+}
+
+.row-flexed { 
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding : 0 2vw;
 }
 
 .labeled {
@@ -110,9 +121,10 @@ main h1 {
     color: #b00;
 }
 
-.small-12 {
-    width: 100%;
-}
+
+.small-6 { width: 47% }
+
+.small-12 { width: 100%; }
 
 
 footer {
