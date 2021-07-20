@@ -5,10 +5,11 @@
     }
 
     .limited {
-        width: 1024px;
+        max-width: 1024px;
         margin: auto;
     }
     nav li { width: auto}
     nav a { padding: .7rem 1rem;}
+    nav  ul {display: flex; flex-wrap: wrap; }
     
 }

@@ -70,10 +70,14 @@ nav ul { display: none;}
 nav ul.open { display: block}
 
 
+main img {
+    width: 100%;
+    height: auto;
+}
+
 
 .row {
     padding : 0 2vw;
-    margin : 0 0 .75rem 0;
     width: 100%; 
 }
 
