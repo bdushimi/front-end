@@ -16,9 +16,14 @@
     .row {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .medium-6 { width: 50%; }
+
+    .labeled{
+        width: 48%;
+    }
     
     nav button { display:none }
     nav ul { display : flex; }

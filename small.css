@@ -76,9 +76,38 @@ main img {
 }
 
 
+main h1 {
+    color : #9b87b8;
+}
+
 .row {
     padding : 0 2vw;
     width: 100%; 
+}
+
+.labeled {
+    position: relative;
+    margin: 0 .2rem .2rem 0;
+}
+.labeled h6, .labeled p {
+    position: absolute;
+    background-color: rgba(255, 255, 255,0.7);
+    margin: 0;
+    width: 100%;
+    padding: .3rem 1rem;
+}
+
+.labeled h6{
+    top:0;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+
+.labeled p { 
+    bottom: 0;
+    font-weight: 700;
+    color: #b00;
 }
 
 .small-12 {
