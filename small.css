@@ -74,6 +74,7 @@ nav ul.open { display: block}
 .row {
     padding : 0 2vw;
     margin : 0 0 .75rem 0;
+    width: 100%; 
 }
 
 .small-12 {
@@ -83,7 +84,7 @@ nav ul.open { display: block}
 
 footer {
     background-color: #9b87b8;
-    font-size: 1.2rem
+    font-size: 1.2rem;
 }
 
 footer h2 {

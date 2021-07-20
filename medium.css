@@ -18,20 +18,13 @@
         flex-wrap: wrap;
     }
 
-    .medium-6 {
-        width: 50%;
-    }
-
+    .medium-6 { width: 50%; }
+    
     nav button { display:none }
-
-    nav ul {
-        display : flex;
-        height: 100%;
-    }
-
-    nav li {
+    nav ul { display : flex; }
+    nav li a {
         display: inline-block;
-        width: 15vw;
+        width: 10vw;
         height: 100%;
     }
     
