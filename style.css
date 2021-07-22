@@ -1,0 +1,132 @@
+/* Import Font Styles */
+@font-face {
+    src: url(./fonts/Rabbit.otf);
+    font-family: Rabbit;
+}
+
+@font-face {
+    src: url(./fonts/Champagne.tff);
+    font-family: Champagne;
+}
+
+
+
+/* General Style Settings */
+
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 300px auto 300px;
+    padding: 10px;
+}
+
+.brand-logo {
+    border-bottom: 2px solid #ddd;
+    margin: 0 auto;
+    width: 700px;
+}
+
+.brand-logo h1 {
+    font-family: Rabbit;
+    font-size: 60px;
+    letter-spacing: 5px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.brand-logo span {
+    color: #fc9d03;
+}
+
+.social-icons img {
+    width: 20px;
+    margin: 5px;
+    opacity: 50%;
+}
+
+.social-icons img:hover {
+    opacity: 100%;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.subscribe-btn a {
+    display: block;
+    padding: 6px;
+    width: 140px;
+    text-align: center;
+    border: 3px solid #fc9d03;
+    font-family: Champagne;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 auto;
+
+}
+
+.subscribe-btn a:hover {
+    background-color: #fc9d03;
+    border: 3px solid #333;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-bar {
+    position: relative;
+    text-align: center;
+    grid-column: 1/4;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.nav-bar a {
+    display:block;
+    float:left;
+    padding: 15px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.nav-bar a.active {
+    color: #fc9d03;
+}
+
+.line {
+    position: absolute;
+    width: 150px;
+    border-bottom: 2px solid #fc9d03;
+    top: 35px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-bar a:hover {
+    color: #fc9d03;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-bar a:nth-child(2):hover ~ .line {
+    transform: translateX(150px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-bar a:nth-child(3):hover ~ .line {
+    transform: translateX(300px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-bar a:nth-child(4):hover ~ .line {
+    transform: translateX(450px);
+    transition: transform 0.3s ease-in-out;
+}
+
+

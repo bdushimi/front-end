@@ -1,109 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300;1,700&display=swap" rel="stylesheet">
-    
-<link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <title>Home | Bethany's Pie Shop</title>
-</head>
-<body>
-    <header>
-        <div class="row limited">
-            <section class="small-12">
-                <img src="./images/logo.svg" alt="Bethany Logo" />
-                <div class="headline">
-                    <h1>Bethany's</h1>
-                    <h2>Fantastic Pie Shop</h2>
-                </div>
-            </section>
-        </div>
-    </header>
+    <link rel="stylesheet" href="./normalize.css"/>
+    <link rel="stylesheet" href="./style.css" />
 
+    <title>Home | Food Blog</title>
+  </head>
+  <body>
     <nav>
-        <div class="row limited">
-            <button id="hamburgerBtn">&#9776;</button>
-                <ul id="primaryNav" >
-                    <li class="active"><a href="./index.html">Specials</a></li>
-                    <li><a href="#">Cheese Cakes</a></li>
-                    <li><a href="./fruitsPage.html">Fruits Pies</a></li>
-                    <li><a href="#">Swag Shop</a></li>
-                </ul>
-        </div>
+      <div class="social-icons">
+        <a href="#"><img src="./icons/facebook.svg" alt="facebook logo" /></a>
+        <a href="#"><img src="./icons/twitter.svg" alt="twitter logo" /></a>
+        <a href="#"><img src="./icons/youtube.svg" alt="youtube logo" /></a>
+        <a href="#"><img src="./icons/instagram.svg" alt="instagramgo" /></a>
+        <a href="#"><img src="./icons/twitch.svg" alt="twitchlogo" /></a>
+      </div>
+
+      <div class="brand-logo">
+        <a href="#"
+          ><h1>Yummyfood<span>blog</span></h1></a
+        >
+      </div>
+
+      <div class="subscribe-btn"><a href="#">Subscribe</a></div>
+      
+      <div class="nav-bar">
+        <a href="#" class="active">Home</a>
+        <a href="#">Blog Entries</a>
+        <a href="#">Food Galery</a>
+        <a href="#">Contact Us</a>
+        <div class="line"></div>
+      </div>
     </nav>
 
-    <main>
-
-       <div class="row limited">
-           <section class="small-12">
-               <img  src="./images/hero.jpg" alt="Bethany Hero Image" width="1024" height="561"/>
-           </section>
-        </div>
-
-        <div class="row limited">
-            <section class="small-12">
-                <h1>This Week's  Specials</h1>
-            </section>
-       </div>
-
-
-       <div class="row limited">
-        <section class="small-12 medium-6 labeled">
-            <h6>Apple Pie</h6>
-            <img src="./products/pie-apple.jpg" alt=" apple pie ">
-            <p>Price: $5.99</p>
-        </section>
-
-        <section class="small-12 medium-6 labeled">
-            <h6>Cheese Cake</h6>
-            <img src="./products/cake-plain.jpg" alt=" cheese-cake ">
-            <p>Price: $6.99</p>
-        </section>
-   </div>
-
-    </main>
-
-    <footer>
-        <div class="row limited">
-            <section class=" small-12 medium-6 large-3">
-                <h2>Location</h2>
-                <ul>
-                    <li>Bethany's Pie Shop</li>
-                    <li>123 Bakery Street</li> 
-                    <li>Brussels, Belgium</li>
-                </ul>
-            </section>
-            <section class=" small-12 medium-6 large-3">
-                <h2>Company</h2>
-                <ul>
-                    <li>Catering</li>
-                    <li>Delivery</li> 
-                    <li>Swag Shop</li>
-                    <li>Support</li>
-                </ul>
-            </section>
-            <section class=" small-12 medium-6 large-3">
-                <h2>Social</h2>
-                <ul>
-                    <li>Facebook</li>
-                    <li>Twitter</li> 
-                    <li>Instagram</li>
-                </ul>
-            </section>
-             <section class="small-12 medium-6 large-3">
-                <h2>About Us</h2>
-                <img src="images/logo2.png" alt="logo">
-                <p>&copy; 2020 &bull; all rights reserved.</p>
-            </section>
-        </div>
-    </footer>
-
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
