@@ -145,7 +145,7 @@ nav {
 }
 
 .feature {
-    position: relative;
+    position: relative;id
 }
 
 .feature img {
@@ -334,4 +334,150 @@ nav {
 .dish p {
     font-size: 12px;
 }
- 
+
+.recipe-type div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: block;
+    padding: 15px;
+    border-bottom: 2px solid #ddd;
+    width: 300px;
+    color: #333;
+}
+
+.sub-type a {
+    margin-left: 20px;
+    color:#555;
+    font-size: 14px;
+}
+
+.recipe-type div span {
+    float: right;
+    font-size: 12px;
+}
+
+.main-type a {
+    display: block;
+}
+
+.recipe-type a:hover {
+    color: #fc9d03;
+    transition: all 0.1s ease-in-out;
+}
+
+
+.poster {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.poster p {
+    width: 90%;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.poster input {
+    width: 60%;
+    padding: 10px;
+    border: 2px solid #fc9d03;;
+}
+
+input:focus {
+    border: 2px solid #333;
+    outline: none;
+}
+
+::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.poster button {
+    font-family: Couture;
+    background-color: #fc9d03;
+    border: none;
+    padding: 10px;
+    width: 120px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+/* Featured Contents Posts */
+
+.featured-post{
+    grid-column: 2 /4;
+    grid-row: 1 /2;
+    position: relative;
+    text-align: center;
+    line-height: 25px;
+}
+
+.featured-post h1 {
+    margin: 20px 0px;
+    font-family: Champagne;
+    letter-spacing: 3px;
+}
+
+.featured-post .date{
+    position: absolute;
+    left:20px;
+    top: 20px;
+    background-color: #fc9d03;
+    width: 80px;
+}
+
+.featured-post .date p {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Couture;
+    color: #fff;
+    text-align: center
+}
+
+.featured-post .date p span {
+    display: block;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.featured-post img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.featured-post h6 {
+    font-family: Rabbit;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin: 10px 0px;
+}
+
+.featured-post h6 span {
+    color: #fc9d03;
+}
+
+.featured-post a.button {
+    display: block;
+    border: 2px solid #fc9d03;
+    padding: 5px 10px;
+    width:120px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: Champagne;
+    margin: 20px auto;
+}
+
+.featured-post a.button:hover {
+    border: 2px solid #333;
+    background-color: #fc9d03;
+}
+
+.selected-posts img {
+    width: 100%;
+    margin-bottom: 20px;
+}
