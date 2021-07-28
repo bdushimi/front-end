@@ -726,3 +726,93 @@ input:focus {
     font-weight: bold;
     letter-spacing: 2px;
 }
+
+/* Responsive Media Queries */
+
+@media only screen and (max-width: 800px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .subscribe-btn {
+        display: none;
+    }
+
+    .brand-logo {
+        width: 100%;
+    }
+
+    .nav-bar {
+        width: 100%;
+    }
+
+    .nav-bar a {
+        display: block;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav-bar .line {
+        display: none;
+    }
+
+    .cover {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .feature{
+        width: 100%;
+    }
+
+    .feature img {
+        height: 400px;
+    }
+
+    .featured {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .about p{
+        padding: 20px;
+    }
+
+    .featured-posts {
+        display: none;
+    }
+
+    .subscribe {
+        display: none;
+    }
+
+    .recipe-type {
+        display: none;
+    }
+
+    .categories {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-category {
+        margin: 30px;
+    }
+
+    .desc-category {
+        height: 330px;
+    }
+
+    .card-category img {
+        left: 50%;
+        transform: translateX(-50%)
+    }
+
+
+}
