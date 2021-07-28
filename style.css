@@ -145,7 +145,7 @@ nav {
 }
 
 .feature {
-    position: relative;id
+    position: relative;
 }
 
 .feature img {
@@ -255,6 +255,11 @@ nav {
 }
 
 /* Sidebar Style */
+
+.sidebar {
+    grid-row: 1 / 4;
+}
+
 
 .sidebar div > h2 {
     margin: 20px 0px;
@@ -407,9 +412,9 @@ input:focus {
 
 /* Featured Contents Posts */
 
-.featured-post{
+.featured-post {
     grid-column: 2 /4;
-    grid-row: 1 /2;
+
     position: relative;
     text-align: center;
     line-height: 25px;
@@ -480,4 +485,16 @@ input:focus {
 .selected-posts img {
     width: 100%;
     margin-bottom: 20px;
+}
+
+.description {
+    text-align: center;
+}
+
+
+.description > p {
+    margin: 10px 0px 30px;
+    color: #333;
+    font-size: 12px;
+    line-height: 25px;
 }
