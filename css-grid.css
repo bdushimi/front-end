@@ -1,0 +1,28 @@
+body {
+    display: grid;
+    grid: repeat(3, max-content) / 15em auto 20em;
+}
+
+header, footer {
+    grid-column: 1/ 4
+}
+
+header {
+    background-color: mediumaquamarine;
+}
+
+nav {
+    background-color: #fc9d03;
+}
+
+main {
+    background-color: red;
+}
+
+aside {
+    background-color: blue;
+}
+
+footer {
+    background-color: green;
+}
