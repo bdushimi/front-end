@@ -1,0 +1,14 @@
+{
+  "name": "notours",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bdushimi/front-end.git",
+  "author": "bdushimi <lespharaons@hotmail.com>",
+  "license": "MIT",
+  "scripts":{
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
