@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwind build -i ./src/styles.css -o ./public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdushimi/front-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdushimi/front-end/issues"
+  },
+  "homepage": "https://github.com/bdushimi/front-end#readme",
+  "dependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
